@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Menu</class>
+ <widget class="QMainWindow" name="Menu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>314</width>
+    <height>273</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>314</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuClases">
+    <property name="title">
+     <string>Clases</string>
+    </property>
+    <widget class="QMenu" name="menuBasicos">
+     <property name="title">
+      <string>Basicos</string>
+     </property>
+     <addaction name="actionEjercicio_1"/>
+     <addaction name="actionEjercicio_2"/>
+     <addaction name="actionEjercicio_3"/>
+    </widget>
+    <widget class="QMenu" name="menuCiclos">
+     <property name="title">
+      <string>Ciclos</string>
+     </property>
+     <addaction name="actionEjercicio_5"/>
+     <addaction name="actionEjercicio_6"/>
+     <addaction name="actionEjercicio_7"/>
+     <addaction name="actionEjercicio_8"/>
+     <addaction name="actionEjercicio_9"/>
+     <addaction name="actionEjercicio_10"/>
+     <addaction name="actionEjercicio_11"/>
+     <addaction name="actionEjercicio_12"/>
+     <addaction name="actionEjercicio_13"/>
+     <addaction name="actionEjercicio_15"/>
+     <addaction name="actionEjercicio_16"/>
+     <addaction name="actionEjercicio_19"/>
+     <addaction name="actionEjercicio_21"/>
+     <addaction name="actionEjercicio_22"/>
+     <addaction name="actionEjercicio_23"/>
+     <addaction name="actionEjercicio_25"/>
+    </widget>
+    <widget class="QMenu" name="menuCondicionales">
+     <property name="title">
+      <string>Condicionales</string>
+     </property>
+     <addaction name="actionEjercicio_4"/>
+     <addaction name="actionEjercicio_14"/>
+     <addaction name="actionEjercicio_17"/>
+     <addaction name="actionEjercicio_18"/>
+     <addaction name="actionEjercicio_20"/>
+     <addaction name="actionEjercicio_24"/>
+    </widget>
+    <addaction name="menuBasicos"/>
+    <addaction name="menuCiclos"/>
+    <addaction name="menuCondicionales"/>
+    <addaction name="separator"/>
+    <addaction name="actionSalir"/>
+   </widget>
+   <addaction name="menuClases"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionEjercicio_1">
+   <property name="text">
+    <string>Pendiente de una recta</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_2">
+   <property name="text">
+    <string>Distancia entre dos puntos</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_3">
+   <property name="text">
+    <string>Función de distancia de probabilidad</string>
+   </property>
+  </action>
+  <action name="actionSalir">
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_5">
+   <property name="text">
+    <string>Cálculo de sumatoria</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_6">
+   <property name="text">
+    <string>Cálculo de sumatoria con e</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_7">
+   <property name="text">
+    <string>Tabla de Multiplicar</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_8">
+   <property name="text">
+    <string>Tablas de Multiplicar</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_9">
+   <property name="text">
+    <string>Repetir 10 veces una palabra</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_10">
+   <property name="text">
+    <string>Conteo de edad</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_11">
+   <property name="text">
+    <string>Conteo de números impares</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_12">
+   <property name="text">
+    <string>Cuenta atrás de números</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_13">
+   <property name="text">
+    <string>Cálculo de inversión</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_14">
+   <property name="text">
+    <string>Identificar números primos</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_15">
+   <property name="text">
+    <string>Palabra al revés letra a letra</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_16">
+   <property name="text">
+    <string>Número de letras de una frase</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_19">
+   <property name="text">
+    <string>Saludo</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_21">
+   <property name="text">
+    <string>División con cociente y resto</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_22">
+   <property name="text">
+    <string>Cálculo de ahorro con interés copuesto</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_23">
+   <property name="text">
+    <string>Venta de panes con descuento</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_25">
+   <property name="text">
+    <string>Frase invertida</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_4">
+   <property name="text">
+    <string>Punto dentro, fuera o sobre la circunferencia</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_17">
+   <property name="text">
+    <string>División de dos números</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_18">
+   <property name="text">
+    <string>División de alumnos en grupos A y B</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_28">
+   <property name="text">
+    <string>Ejercicio 18</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_26">
+   <property name="text">
+    <string>Ejercicio 20</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_27">
+   <property name="text">
+    <string>Ejercicio 24</string>
+   </property>
+  </action>
+  <action name="actionDivisi_n_de_dos_n_meros">
+   <property name="text">
+    <string>División de dos números</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_20">
+   <property name="text">
+    <string>Calculo del IMC</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_24">
+   <property name="text">
+    <string>Pago por sala de juego según la edad</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_29">
+   <property name="text">
+    <string>Ejercicio_20</string>
+   </property>
+  </action>
+  <action name="actionEjercicio_30">
+   <property name="text">
+    <string>Ejercicio_24</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

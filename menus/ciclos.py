@@ -33,7 +33,7 @@ class Ciclos(object):
         print("10. Palabra al revés letra a letra")
         print("11. Número de letras de una frase")
         print("12. Saludo")
-        print("13. Division con coiciente y resto")
+        print("13. Division con cociente y resto")
         print("14. Cálculo de ahorro con interés compuesto")
         print("15. Venta de panes con descuento")
         print("16. Palabra invertida")
@@ -103,6 +103,7 @@ class Ciclos(object):
                 print("\nSALUDO")
                 saludo = Saludo()
                 saludo.leer_datos()
+                saludo.saludo()
                 saludo.imprimir_saludo()
             case 13:
                 print("\nDIVISIÓN CON COCIENTE Y RESTO")
@@ -115,6 +116,7 @@ class Ciclos(object):
                 ahorro = Ahorro()
                 ahorro.leer_datos()
                 ahorro.calcular_ahorro()
+                ahorro.imprimir_ahorro()
             case 15:
                 print("\nVENTA DE PANES CON DESCUENTO")
                 venta = Venta()

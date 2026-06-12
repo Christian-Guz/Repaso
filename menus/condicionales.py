@@ -38,17 +38,20 @@ class Condicional(object):
                 division = Division()
                 division.leer_datos()
                 division.dividir()
+                division.imprimir_resultado()
             case 4:
                 print("\nDIVISIÓN DE ALUMNOS EN GRUPOS")
                 alumno = Alumnos()
                 alumno.leer_datos()
                 alumno.comparar_alumnos()
+                alumno.imprimir_grupo()
             case 5:
                 print("\nCALCULO DEL IMC")
                 imc = IMC()
                 imc.leer_datos()
                 imc.calcular_imc()
                 imc.comparar()
+                imc.imprimir_resultado()
             case 6:
                 print("\nPAGO POR SALA DE JUEGO SEGÚN LA EDAD")
                 entrada = Entrada()

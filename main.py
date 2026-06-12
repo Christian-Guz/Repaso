@@ -1,8 +1,12 @@
-from menus.principal import Principal
+import sys
+from PyQt5.QtWidgets import QApplication
+from clases_load.load_menu import LoadMenu
 
 def main():
-    principal = Principal()
-    principal.ejecutar()
+    app = QApplication(sys.argv)
+    principal = LoadMenu()
+    principal.show()
+    sys.exit(app.exec_())
 
 if __name__ == "__main__":
     main()

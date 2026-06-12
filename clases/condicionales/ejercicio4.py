@@ -8,11 +8,12 @@ class Calculo(object):
 
   def calcular(self):
     self.distancia = ((self.x_punto - self.x_centro)**2 + (self.y_punto - self.y_centro)**2)**0.5
+    if self.distancia > self.radio:
+      self.punto = "El punto está fuera de la circunferencia"
+    if self.distancia < self.radio:
+      self.punto = "El punto está dentro de la circunferencia"
+    if self.distancia == self.radio:
+      self.punto = "El punto está sobre la circunferencia"
 
   def imprimir(self):
-    if self.distancia > self.radio:
-      print("El punto está fuera de la circunferencia")
-    if self.distancia < self.radio:
-      print("El punto está dentro de la circunferencia")
-    if self.distancia == self.radio:
-      print("El punto está sobre la circunferencia")
+    print(self.punto)

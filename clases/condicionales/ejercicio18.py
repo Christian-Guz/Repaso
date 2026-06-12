@@ -4,13 +4,17 @@ class Alumnos(object):
     self.sexo = input("Sexo = ")
 
   def comparar_alumnos(self):
+    self.grupo = ""
     if self.sexo.lower() == "mujer":
       if self.nombre[0].lower() < "m":
-        print("Grupo A")
+        self.grupo = "Grupo A"
       else:
-        print("Grupo B")
+        self.grupo = "Grupo B"
     if self.sexo.lower() == "hombre":
       if self.nombre[0].lower() > "n":
-        print("Grupo A")
+        self.grupo = "Grupo A"
       else:
-        print("Grupo B")
+        self.grupo = "Grupo B"
+  
+  def imprimir_grupo(self):
+    print(f"El alumno {self.nombre} pertenece al {self.grupo}")

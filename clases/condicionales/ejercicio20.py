@@ -10,14 +10,18 @@ class IMC(object):
 
   def comparar(self):
     if self.imc < 18.5:
-      print(f"IMC = {self.imc} - Bajo peso")
+      self.x = f"IMC = {round(self.imc, 2)} - Bajo peso"
     elif self.imc >= 18.5 and self.imc <= 24.9:
-      print(f"IMC = {self.imc} - Peso normal")
+      self.x = f"IMC = {round(self.imc, 2)} - Peso normal"
     elif self.imc >= 25 and self.imc <= 29.9:
-      print(f"IMC = {self.imc} - Sobrepeso")
+      self.x = f"IMC = {round(self.imc, 2)} - Sobrepeso"
     elif self.imc >= 30 and self.imc <= 34.9:
-      print(f"IMC = {self.imc} - Obesidad grado 1")
+      self.x = f"IMC = {round(self.imc, 2)} - Obesidad grado 1"
     elif self.imc >= 35 and self.imc <= 39.9:
-      print(f"IMC = {self.imc} - Obesidad grado 2")
+      self.x = f"IMC = {round(self.imc, 2)} - Obesidad grado 2"
     elif self.imc >= 40:
-      print(f"IMC = {self.imc} - Obesidad grado 3")
+      self.x = f"IMC = {round(self.imc, 2)} - Obesidad grado 3"
+    return self.x
+  
+  def imprimir_resultado(self):
+    print(self.x)

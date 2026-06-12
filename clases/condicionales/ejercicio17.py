@@ -6,7 +6,9 @@ class Division(object):
 
   def dividir(self):
     if self.divisor == 0:
-      print("Error: No se puede dividir por cero")
+      self.resultado = "Error: No se puede dividir por cero"
     else:
-      self.cociente = self.dividendo / self.divisor
-      print(f"El resultado de la división es {self.cociente}")
+      self.resultado = f"El resultado de la división es: {self.dividendo / self.divisor}"
+  
+  def imprimir_resultado(self):
+      print(self.resultado)

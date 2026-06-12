@@ -5,6 +5,10 @@ class Ahorro(object):
     return self.cantidad, self.tiempo
 
   def calcular_ahorro(self):
+    self.x = ""
     for i in range(self.tiempo):
       self.cantidad += self.cantidad + (self.cantidad * 0.04)
-      print(f"Cantidad acumulada {round(self.cantidad,2)} despues de {i + 1} años")
+      self.x += f"Cantidad acumulada {round(self.cantidad,2)} despues de {i + 1} años\n"
+      
+  def imprimir_ahorro(self):
+    print(self.x)
